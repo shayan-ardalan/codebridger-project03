@@ -1,4 +1,4 @@
-/* پایه */
+
 :root {
     --primary-color: #4a90e2;
     --secondary-color: #2c3e50;
@@ -21,7 +21,7 @@ body {
     background-color: var(--bg-light);
 }
 
-/* منو */
+
 header {
     background: linear-gradient(135deg, var(--primary-color), var(--secondary-color));
     padding: 1rem;
@@ -57,7 +57,7 @@ nav a:hover {
     transition: var(--transition);
 }
 
-/* بخش اصلی */
+
 .hero {
     background: linear-gradient(135deg, var(--secondary-color), var(--primary-color));
     color: white;
@@ -84,7 +84,7 @@ nav a:hover {
     animation: fadeInUp 1s ease;
 }
 
-/* بخش درباره */
+
 .about {
     padding: 5rem 2rem;
     background-color: white;
@@ -116,7 +116,7 @@ nav a:hover {
     line-height: 1.8;
 }
 
-/* بخش مهارت‌ها */
+
 .skills {
     background-color: var(--bg-light);
     padding: 5rem 2rem;
@@ -150,7 +150,7 @@ nav a:hover {
     box-shadow: 0 8px 25px rgba(0,0,0,0.1);
 }
 
-/* بخش تماس */
+
 .contact {
     padding: 5rem 2rem;
     background-color: white;
@@ -209,7 +209,7 @@ nav a:hover {
     transform: translateY(-2px);
 }
 
-/* فوتر */
+
 footer {
     background: var(--secondary-color);
     color: white;
@@ -217,7 +217,7 @@ footer {
     padding: 2rem;
 }
 
-/* انیمیشن‌ها */
+
 @keyframes fadeInUp {
     from {
         opacity: 0;
@@ -229,7 +229,7 @@ footer {
     }
 }
 
-/* واکنش‌گرا */
+
 @media (max-width: 768px) {
     .skills-grid {
         grid-template-columns: 1fr;
