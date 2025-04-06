@@ -1,54 +1,52 @@
-# پروژه Vue.js
+This is a Vue.js project built with Nuxt.js.
 
-این یک پروژه Vue.js است که با استفاده از Nuxt.js ساخته شده است.
+This project is published on [GitHub](https://shayan-ardalan.github.io/codebridger-project03/).
 
-این پروژه در [گیت‌هاب](https://shayan-ardalan.github.io/codebridger-project03/) منتشر شده است.
+## Prerequisites
 
-## پیش‌نیازها
+- Node.js (version 16 or higher)
+- npm or yarn
 
-- Node.js (نسخه 16 یا بالاتر)
-- npm یا yarn
+## Installation and Setup
 
-## نصب و راه‌اندازی
-
-1. ابتدا پروژه را کلون کنید:
+1. First, clone the project:
 ```bash
- git clone [آدرس پروژه]
+git clone [project-url]
 ```
 
-2. وارد پوشه پروژه شوید:
+2. Navigate to the project directory:
 ```bash
-cd [نام پوشه پروژه]
+cd [project-folder-name]
 ```
 
-3. نصب وابستگی‌ها:
+3. Install dependencies:
 ```bash
 npm install
-# یا
+# or
 yarn install
 ```
 
-4. اجرای پروژه در حالت توسعه:
+4. Run the project in development mode:
 ```bash
 npm run dev
-# یا
+# or
 yarn dev
 ```
 
-5. ساخت نسخه نهایی پروژه:
+5. Build the production version:
 ```bash
 npm run build
-# یا
+# or
 yarn build
 ```
 
-## دستورات مهم
+## Important Commands
 
-- `npm run dev`: اجرای پروژه در حالت توسعه
-- `npm run build`: ساخت نسخه نهایی پروژه
-- `npm run preview`: پیش‌نمایش نسخه نهایی پروژه
+- `npm run dev`: Run the project in development mode
+- `npm run build`: Build the production version
+- `npm run preview`: Preview the production version
 
-## نکات مهم
+## Important Notes
 
-- برای ساخت نسخه نهایی، از دستور `npm run build` استفاده کنید
-- فایل‌های نهایی در پوشه `.output` ذخیره می‌شوند 
+- Use `npm run build` to create the production version
+- The final files are stored in the `.output` folder 
